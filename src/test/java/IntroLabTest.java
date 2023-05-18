@@ -35,5 +35,6 @@ public class IntroLabTest {
         String expected = "Good evening! My name is Katarina! I like cats more than dogs! Have a good day!";
         String actual = IntroLab.vucickat();
         assertEquals(expected, actual);
+
     }
 }

@@ -28,7 +28,6 @@ public class IntroLab {
         } else {
             message_to_print += "I like dogs more than cats! ";
         }
-
         return message_to_print + message;
     }
 
