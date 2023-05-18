@@ -30,4 +30,9 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    public void testwuyiju(){
+        String expected = "Hi! My name is I'm Lulu! I like cats more than dogs! Although my family owns a dog. ";
+        String actual = IntroLab.wuyiju();
+        assertEquals(expected, actual);
+    }
 }
