@@ -1,5 +1,5 @@
 /*
- * This file contains JUnit test cases for IntroLab.java
+ * This file contains JUnit test cases for IntroLab.java.
  *
  * Complete the TODO in this file!
  */

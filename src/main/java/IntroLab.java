@@ -8,7 +8,7 @@
 public class IntroLab {
     /**
      * Returns a message depending on the given greeting, name, message, and
-     * whether the caller likes cats or dogs more.
+     * whether the caller likes cats or dogs more....
      *
      * Do NOT change this method!
      *
