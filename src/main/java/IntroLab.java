@@ -10,7 +10,6 @@ public class IntroLab {
     /**
      * Returns a message depending on the given greeting, name, message, and
      * whether the caller likes cats or dogs more.
-     *
      * Do NOT change this method!
      *
      * @param greeting   A string with a greeting (e.g. "Hello", "Hey")
@@ -29,17 +28,21 @@ public class IntroLab {
         } else {
             message_to_print += "I like dogs more than cats! ";
         }
-
         return message_to_print + message;
     }
 
     /* TODO: In the space below, write your our method.
      *       The method should be named with your utorID and should call
      *       printLabMessage with some parameters.
-     *
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
+     *
      */
+
+    public static String vucickat() {
+        return printLabMessage("Good evening", "Katarina", true,
+                "Have a good day!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,6 +62,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(vucickat());
 
 
     }

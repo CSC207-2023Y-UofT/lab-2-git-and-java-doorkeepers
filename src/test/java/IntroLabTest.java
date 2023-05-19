@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 10)
+    public void testVucickat() {
+        String expected = "Good evening! My name is Katarina! I like cats more than dogs! Have a good day!";
+        String actual = IntroLab.vucickat();
+        assertEquals(expected, actual);
+
+    }
 }
