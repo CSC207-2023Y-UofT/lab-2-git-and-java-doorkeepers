@@ -37,6 +37,7 @@ public class IntroLab {
      *
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
+     *
      */
 
     public static String vucickat() {
