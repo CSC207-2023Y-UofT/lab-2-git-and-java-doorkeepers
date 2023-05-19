@@ -40,7 +40,10 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
-
+    public static String najafis9(){
+        return printLabMessage("Hello", "Iliya", true,
+                "that was cap");
+    }
     /**
      * An example method that calls on printLabMessage.
      */
@@ -59,10 +62,10 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(najafis9());
 
 
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
-
 }
