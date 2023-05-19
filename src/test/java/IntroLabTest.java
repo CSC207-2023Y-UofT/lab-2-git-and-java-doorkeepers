@@ -25,9 +25,18 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
+    @Test(timeout = 10)
+    public void testLinyin4() {
+        String expected = "Hi! My name is Yin Lin! " +
+                "I like cats more than dogs! CSC207 is a bit confusing for me so far...";
+        String actual = IntroLab.linyin4();
+        assertEquals(expected, actual);
+    }
+
     /* TODO: Write a test case for the method you wrote in IntroLab.
      *       If done properly, you should be able to run IntroLabTest and see
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
 }
