@@ -32,7 +32,8 @@ public class IntroLabTest {
      */
     @Test(timeout = 10)
     public void testwuyiju(){
-        String expected = "Hi! My name is I'm Lulu! I like cats more than dogs! Although my family owns a dog. ";
+        String expected = "Hi! My name is I'm Lulu! I like cats more than dogs!" +
+        " Although my family owns a dog. ";
         String actual = IntroLab.wuyiju();
         assertEquals(expected, actual);
     }
