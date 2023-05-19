@@ -38,4 +38,3 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 }
-
