@@ -42,6 +42,15 @@ public class IntroLab {
      */
 
     /**
+     * Returns a nice message specific to Ari
+     *
+     * @return Ari's cool message
+     */
+    public static String casasna1() {
+        return printLabMessage("What's up?", "Ari", true, "Fancy IntelliJ takes a long time to load.");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,8 +68,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
-
+        System.out.println(casasna1());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.

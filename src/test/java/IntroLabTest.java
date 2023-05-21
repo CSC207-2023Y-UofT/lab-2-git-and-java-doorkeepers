@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 10)
+    public void testCasasna1() {
+        String expected = "What's up?! My name is Ari! " +
+                "I like cats more than dogs! Fancy IntelliJ takes a long time to load.";
+        String actual = IntroLab.casasna1();
+        assertEquals(expected, actual);
+    }
 }
